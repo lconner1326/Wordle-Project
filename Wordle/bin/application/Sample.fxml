@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SampleController">
+   <bottom>
+      <AnchorPane prefHeight="786.0" prefWidth="680.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label alignment="CENTER" layoutX="295.0" layoutY="14.0" prefHeight="36.0" prefWidth="91.0" text="Wordle">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <HBox layoutX="151.0" layoutY="54.0" prefHeight="82.0" prefWidth="379.0">
+               <children>
+                  <Label fx:id="label_11" alignment="CENTER" prefHeight="72.0" prefWidth="72.0" style="-fx-border-color: black; -fx-background-color: white;">
+                     <font>
+                        <Font size="48.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+                     </HBox.margin>
+                  </Label>
+                  <Label fx:id="label_12" alignment="CENTER" layoutX="10.0" layoutY="10.0" prefHeight="72.0" prefWidth="72.0" style="-fx-border-color: black; -fx-background-color: white;">
+                     <font>
+                        <Font size="48.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+                     </HBox.margin>
+                  </Label>
+                  <Label fx:id="label_13" alignment="CENTER" layoutX="82.0" layoutY="10.0" prefHeight="72.0" prefWidth="72.0" style="-fx-border-color: black; -fx-background-color: white;">
+                     <font>
+                        <Font size="48.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+                     </HBox.margin>
+                  </Label>
+                  <Label fx:id="label_14" alignment="CENTER" layoutX="154.0" layoutY="10.0" prefHeight="72.0" prefWidth="72.0" style="-fx-border-color: black; -fx-background-color: white;">
+                     <font>
+                        <Font size="48.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+                     </HBox.margin>
+                  </Label>
+                  <Label fx:id="label_15" alignment="CENTER" layoutX="226.0" layoutY="10.0" prefHeight="72.0" prefWidth="72.0" style="-fx-border-color: black; -fx-background-color: white;">
+                     <font>
+                        <Font size="48.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+                     </HBox.margin>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox layoutX="151.0" layoutY="136.0" prefHeight="82.0" prefWidth="379.0">
+               <children>
+                  <Label fx:id="label_21" alignment="CENTER" prefHeight="72.0" prefWidth="72.0" style="-fx-border-color: black; -fx-background-color: white;">
+                     <font>
+                        <Font size="48.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+                     </HBox.margin>
+                  </Label>
+                  <Label fx:id="label_22" alignment="CENTER" layoutX="10.0" layoutY="10.0" prefHeight="72.0" prefWidth="72.0" style="-fx-border-color: black; -fx-background-color: white;">
+                     <font>
+                        <Font size="48.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+                     </HBox.margin>
+                  </Label>
+                  <Label fx:id="label_23" alignment="CENTER" layoutX="82.0" layoutY="10.0" prefHeight="72.0" prefWidth="72.0" style="-fx-border-color: black; -fx-background-color: white;">
+                     <font>
+                        <Font size="48.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+                     </HBox.margin>
+                  </Label>
+                  <Label fx:id="label_24" alignment="CENTER" layoutX="154.0" layoutY="10.0" prefHeight="72.0" prefWidth="72.0" style="-fx-border-color: black; -fx-background-color: white;">
+                     <font>
+                        <Font size="48.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+                     </HBox.margin>
+                  </Label>
+                  <Label fx:id="label_25" alignment="CENTER" layoutX="226.0" layoutY="10.0" prefHeight="72.0" prefWidth="72.0" style="-fx-border-color: black; -fx-background-color: white;">
+                     <font>
+                        <Font size="48.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+                     </HBox.margin>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox layoutX="151.0" layoutY="218.0" prefHeight="82.0" prefWidth="379.0">
+               <children>
+                  <Label fx:id="label_31" alignment="CENTER" prefHeight="72.0" prefWidth="72.0" style="-fx-border-color: black; -fx-background-color: white;">
+                     <font>
+                        <Font size="48.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+                     </HBox.margin>
+                  </Label>
+                  <Label fx:id="label_32" alignment="CENTER" layoutX="10.0" layoutY="10.0" prefHeight="72.0" prefWidth="72.0" style="-fx-border-color: black; -fx-background-color: white;">
+                     <font>
+                        <Font size="48.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+                     </HBox.margin>
+                  </Label>
+                  <Label fx:id="label_33" alignment="CENTER" layoutX="82.0" layoutY="10.0" prefHeight="72.0" prefWidth="72.0" style="-fx-border-color: black; -fx-background-color: white;">
+                     <font>
+                        <Font size="48.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+                     </HBox.margin>
+                  </Label>
+                  <Label fx:id="label_34" alignment="CENTER" layoutX="154.0" layoutY="10.0" prefHeight="72.0" prefWidth="72.0" style="-fx-border-color: black; -fx-background-color: white;">
+                     <font>
+                        <Font size="48.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+                     </HBox.margin>
+                  </Label>
+                  <Label fx:id="label_35" alignment="CENTER" layoutX="226.0" layoutY="10.0" prefHeight="72.0" prefWidth="72.0" style="-fx-border-color: black; -fx-background-color: white;">
+                     <font>
+                        <Font size="48.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+                     </HBox.margin>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox layoutX="151.0" layoutY="300.0" prefHeight="82.0" prefWidth="379.0">
+               <children>
+                  <Label fx:id="label_41" alignment="CENTER" prefHeight="72.0" prefWidth="72.0" style="-fx-border-color: black; -fx-background-color: white;">
+                     <font>
+                        <Font size="48.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+                     </HBox.margin>
+                  </Label>
+                  <Label fx:id="label_42" alignment="CENTER" layoutX="10.0" layoutY="10.0" prefHeight="72.0" prefWidth="72.0" style="-fx-border-color: black; -fx-background-color: white;">
+                     <font>
+                        <Font size="48.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+                     </HBox.margin>
+                  </Label>
+                  <Label fx:id="label_43" alignment="CENTER" layoutX="82.0" layoutY="10.0" prefHeight="72.0" prefWidth="72.0" style="-fx-border-color: black; -fx-background-color: white;">
+                     <font>
+                        <Font size="48.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+                     </HBox.margin>
+                  </Label>
+                  <Label fx:id="label_44" alignment="CENTER" layoutX="154.0" layoutY="10.0" prefHeight="72.0" prefWidth="72.0" style="-fx-border-color: black; -fx-background-color: white;">
+                     <font>
+                        <Font size="48.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+                     </HBox.margin>
+                  </Label>
+                  <Label fx:id="label_45" alignment="CENTER" layoutX="226.0" layoutY="10.0" prefHeight="72.0" prefWidth="72.0" style="-fx-border-color: black; -fx-background-color: white;">
+                     <font>
+                        <Font size="48.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+                     </HBox.margin>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox layoutX="151.0" layoutY="382.0" prefHeight="82.0" prefWidth="379.0">
+               <children>
+                  <Label fx:id="label_51" alignment="CENTER" prefHeight="72.0" prefWidth="72.0" style="-fx-border-color: black; -fx-background-color: white;">
+                     <font>
+                        <Font size="48.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+                     </HBox.margin>
+                  </Label>
+                  <Label fx:id="label_52" alignment="CENTER" layoutX="10.0" layoutY="10.0" prefHeight="72.0" prefWidth="72.0" style="-fx-border-color: black; -fx-background-color: white;">
+                     <font>
+                        <Font size="48.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+                     </HBox.margin>
+                  </Label>
+                  <Label fx:id="label_53" alignment="CENTER" layoutX="82.0" layoutY="10.0" prefHeight="72.0" prefWidth="72.0" style="-fx-border-color: black; -fx-background-color: white;">
+                     <font>
+                        <Font size="48.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+                     </HBox.margin>
+                  </Label>
+                  <Label fx:id="label_54" alignment="CENTER" layoutX="154.0" layoutY="10.0" prefHeight="72.0" prefWidth="72.0" style="-fx-border-color: black; -fx-background-color: white;">
+                     <font>
+                        <Font size="48.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+                     </HBox.margin>
+                  </Label>
+                  <Label fx:id="label_55" alignment="CENTER" layoutX="226.0" layoutY="10.0" prefHeight="72.0" prefWidth="72.0" style="-fx-border-color: black; -fx-background-color: white;">
+                     <font>
+                        <Font size="48.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+                     </HBox.margin>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox layoutX="151.0" layoutY="464.0" prefHeight="82.0" prefWidth="379.0">
+               <children>
+                  <Label fx:id="label_61" alignment="CENTER" prefHeight="72.0" prefWidth="72.0" style="-fx-border-color: black; -fx-background-color: white;">
+                     <font>
+                        <Font size="48.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+                     </HBox.margin>
+                  </Label>
+                  <Label fx:id="label_62" alignment="CENTER" layoutX="10.0" layoutY="10.0" prefHeight="72.0" prefWidth="72.0" style="-fx-border-color: black; -fx-background-color: white;">
+                     <font>
+                        <Font size="48.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+                     </HBox.margin>
+                  </Label>
+                  <Label fx:id="label_63" alignment="CENTER" layoutX="82.0" layoutY="10.0" prefHeight="72.0" prefWidth="72.0" style="-fx-border-color: black; -fx-background-color: white;">
+                     <font>
+                        <Font size="48.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+                     </HBox.margin>
+                  </Label>
+                  <Label fx:id="label_64" alignment="CENTER" layoutX="154.0" layoutY="10.0" prefHeight="72.0" prefWidth="72.0" style="-fx-border-color: black; -fx-background-color: white;">
+                     <font>
+                        <Font size="48.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+                     </HBox.margin>
+                  </Label>
+                  <Label fx:id="label_65" alignment="CENTER" layoutX="226.0" layoutY="10.0" prefHeight="72.0" prefWidth="72.0" style="-fx-border-color: black; -fx-background-color: white;">
+                     <font>
+                        <Font size="48.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+                     </HBox.margin>
+                  </Label>
+               </children>
+            </HBox>
+            <Button fx:id="wButton" layoutX="180.0" layoutY="582.0" mnemonicParsing="false" onAction="#wButtonClicked" prefHeight="40.0" prefWidth="40.0" text="W">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="aButton" layoutX="160.0" layoutY="622.0" mnemonicParsing="false" onAction="#aButtonClicked" prefHeight="40.0" prefWidth="40.0" text="A">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="dButton" layoutX="240.0" layoutY="622.0" mnemonicParsing="false" onAction="#dButtonClicked" prefHeight="40.0" prefWidth="40.0" text="D">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="hButton" layoutX="360.0" layoutY="622.0" mnemonicParsing="false" onAction="#hButtonClicked" prefHeight="40.0" prefWidth="40.0" text="H">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="gButton" layoutX="320.0" layoutY="622.0" mnemonicParsing="false" onAction="#gButtonClicked" prefHeight="40.0" prefWidth="40.0" text="G">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="fButton" layoutX="280.0" layoutY="622.0" mnemonicParsing="false" onAction="#fButtonClicked" prefHeight="40.0" prefWidth="40.0" text="F">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="eButton" layoutX="220.0" layoutY="582.0" mnemonicParsing="false" onAction="#eButtonClicked" prefHeight="40.0" prefWidth="40.0" text="E">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="rButton" layoutX="260.0" layoutY="582.0" mnemonicParsing="false" onAction="#rButtonClicked" prefHeight="40.0" prefWidth="40.0" text="R">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="yButton" layoutX="340.0" layoutY="582.0" mnemonicParsing="false" onAction="#yButtonClicked" prefHeight="40.0" prefWidth="40.0" text="Y">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="tButton" layoutX="300.0" layoutY="582.0" mnemonicParsing="false" onAction="#tButtonClicked" prefHeight="40.0" prefWidth="40.0" text="T">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="sButton" layoutX="200.0" layoutY="622.0" mnemonicParsing="false" onAction="#sButtonClicked" prefHeight="40.0" prefWidth="40.0" text="S">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="jButton" layoutX="400.0" layoutY="622.0" mnemonicParsing="false" onAction="#jButtonClicked" prefHeight="40.0" prefWidth="40.0" text="J">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="iButton" layoutX="420.0" layoutY="582.0" mnemonicParsing="false" onAction="#iButtonClicked" prefHeight="40.0" prefWidth="40.0" text="I">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="uButton" layoutX="380.0" layoutY="582.0" mnemonicParsing="false" onAction="#uButtonClicked" prefHeight="40.0" prefWidth="40.0" text="U">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="zButton" layoutX="200.0" layoutY="662.0" mnemonicParsing="false" onAction="#zButtonClicked" prefHeight="40.0" prefWidth="40.0" text="Z">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="pButton" layoutX="500.0" layoutY="582.0" mnemonicParsing="false" onAction="#pButtonClicked" prefHeight="40.0" prefWidth="40.0" text="P">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="oButton" layoutX="460.0" layoutY="582.0" mnemonicParsing="false" onAction="#oButtonClicked" prefHeight="40.0" prefWidth="40.0" text="O">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="qButton" layoutX="140.0" layoutY="582.0" mnemonicParsing="false" onAction="#qButtonClicked" prefHeight="40.0" prefWidth="40.0" text="Q">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="lButton" layoutX="480.0" layoutY="622.0" mnemonicParsing="false" onAction="#lButtonClicked" prefHeight="40.0" prefWidth="40.0" text="L">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="kButton" layoutX="440.0" layoutY="622.0" mnemonicParsing="false" onAction="#kButtonClicked" prefHeight="40.0" prefWidth="40.0" text="K">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            <Button layoutX="240.0" layoutY="662.0" mnemonicParsing="false" onAction="#xButtonClicked" prefHeight="40.0" prefWidth="40.0" text="X" fx:id="xButton">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="cButton" layoutX="280.0" layoutY="662.0" mnemonicParsing="false" onAction="#cButtonClicked" prefHeight="40.0" prefWidth="40.0" text="C">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="vButton" layoutX="320.0" layoutY="662.0" mnemonicParsing="false" onAction="#vButtonClicked" prefHeight="40.0" prefWidth="40.0" text="V">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="bButton" layoutX="360.0" layoutY="662.0" mnemonicParsing="false" onAction="#bButtonClicked" prefHeight="40.0" prefWidth="40.0" text="B">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="nButton" layoutX="400.0" layoutY="662.0" mnemonicParsing="false" onAction="#nButtonClicked" prefHeight="40.0" prefWidth="40.0" text="N">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="mButton" layoutX="440.0" layoutY="662.0" mnemonicParsing="false" onAction="#mButtonClicked" prefHeight="40.0" prefWidth="40.0" text="M">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="backspaceButton" layoutX="480.0" layoutY="662.0" mnemonicParsing="false" onAction="#backspaceClicked" prefHeight="40.0" prefWidth="62.0" text="BACK" />
+            <Button fx:id="enterButton" layoutX="138.0" layoutY="662.0" mnemonicParsing="false" onAction="#enterClicked" prefHeight="40.0" prefWidth="62.0" text="ENTER" />
+            <Button fx:id="resetButton" layoutX="129.0" layoutY="719.0" mnemonicParsing="false" onAction="#resetClicked" prefHeight="40.0" prefWidth="62.0" text="RESET" />
+            <Button fx:id="saveButton" layoutX="490.0" layoutY="719.0" mnemonicParsing="false" onAction="#saveClicked" prefHeight="40.0" prefWidth="62.0" text="SAVE" />
+            <Button fx:id="loadButton" layoutX="421.0" layoutY="719.0" mnemonicParsing="false" onAction="#loadClicked" prefHeight="40.0" prefWidth="62.0" text="LOAD" />
+         </children>
+      </AnchorPane>
+   </bottom>
+</BorderPane>
